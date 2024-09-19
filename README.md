@@ -1,8 +1,8 @@
-Amazon ML Challenge Project
+**Amazon ML Challenge Project**
 Overview
 This project was developed for the Amazon ML Challenge, where our team ranked 413 out of 75,000 participants, placing in the top 0.55%. The objective was to build a machine learning model that extracts specific entity values (such as weight, dimensions, etc.) from product images using OCR and regex-based pattern matching.
 
-Key Features
+**Key Features**
 OCR with Pytesseract: Used for text extraction from images.
 Regex-based Entity Matching: Applied regular expressions to identify specific entity values like weight, dimensions, and voltage.
 Concurrent Processing: Employed Python's ThreadPoolExecutor to speed up the extraction process by running tasks in parallel.
